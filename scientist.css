@@ -1,0 +1,91 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: lightblue;
+    font-size: 40px;
+    color: darkblue;
+}
+
+.photo{
+    border: solid blue;
+}
+
+.desc{
+    border:solid blue;
+    text-align: center;
+    font-size: 28px;
+    padding: 2px;
+}
+.sec2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #dddddd;
+    border: 1px blue;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.UpcomingEvents{
+    grid-row: 1/4;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: #dddddd;
+    padding:20px;
+}
+
+#change{
+    width: 250px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 24px;
+    border: 5px black;
+    background-color: red;
+}
+
+.articles {
+    grid-column: 1/4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: #dddddd;
+    padding: 5px;
+}
+
+.sec3{
+    font-family: Arial, Helvetica, sans-serif
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 2px;
+    margin: 10px;
+    padding: 5px;
+    border: solid 1px black;
+    background-color: #dddddd;
+    font-size: 16px;
+}
+
+.sec4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+.demo {
+    width: 30%;
+    font-family: fantasy;
+    font-size: 24px;
+    font: bold;
+    display: inline-table;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: red;
+    padding:20px;
+}
